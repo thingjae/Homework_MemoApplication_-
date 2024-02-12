@@ -21,4 +21,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, writeMemo::class.java))
         }
     }
+
+    class writeMemo {
+
+    }
 }
